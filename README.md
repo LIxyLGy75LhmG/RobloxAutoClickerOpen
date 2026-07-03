@@ -10,6 +10,7 @@
 ![.NET](https://img.shields.io/badge/.NET-Framework%204.8-512BD4)
 ![License](https://img.shields.io/badge/license-MIT-3fb950)
 ![Version](https://img.shields.io/badge/version-1.1-fbbf24)
+[![SourceForge](https://img.shields.io/badge/SourceForge-download-FF6600?logo=sourceforge&logoColor=white)](https://sourceforge.net/projects/robloxautoclickeropen/)
 
 <br/>
 
@@ -41,6 +42,8 @@
 
 Grab the latest ready-to-run build from the [**Releases**](../../releases) page:
 download the `.zip`, unzip it, and run **`RobloxAutoClickerOpen.exe`**. That's it — nothing to install.
+
+It's also available on **[SourceForge](https://sourceforge.net/projects/robloxautoclickeropen/)**.
 
 ## 🛠️ Build from source
 
