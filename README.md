@@ -11,6 +11,10 @@
 ![License](https://img.shields.io/badge/license-MIT-3fb950)
 ![Version](https://img.shields.io/badge/version-1.1-fbbf24)
 
+<br/>
+
+<img src="docs/screenshot.png" width="430" alt="Roblox AutoClicker Open — user interface"/>
+
 </div>
 
 ## ✨ Features
