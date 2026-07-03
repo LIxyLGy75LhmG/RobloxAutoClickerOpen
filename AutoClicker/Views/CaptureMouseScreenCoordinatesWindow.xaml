@@ -1,0 +1,37 @@
+<Window x:Class="AutoClicker.Views.CaptureMouseScreenCoordinatesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="CaptureMouseScreenCoordinatesWindow" Height="450" Width="800"
+        AllowsTransparency="True">
+    <Window.Background>
+        <SolidColorBrush Opacity="0.35" Color="Black"></SolidColorBrush>
+    </Window.Background>
+
+    <Grid>
+        <Border Background="#FF0B1220" CornerRadius="8" Padding="16,12" Margin="18"
+                BorderBrush="#FF16A34A" BorderThickness="2"
+                VerticalAlignment="Top" HorizontalAlignment="Left">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <StackPanel.Resources>
+                        <Style TargetType="Label">
+                            <Setter Property="FontSize" Value="22"></Setter>
+                            <Setter Property="FontWeight" Value="Bold"></Setter>
+                            <Setter Property="Foreground" Value="#FFFBBF24"></Setter>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label Content="X:"></Label>
+                    <Label Content="0" Name="LabelXCoordinate"></Label>
+                    <Label Content="Y:"></Label>
+                    <Label Content="0" Name="LabelYCoordinate"></Label>
+                </StackPanel>
+                <Label HorizontalAlignment="Center" Foreground="#FFEEF2F7" FontSize="13">
+                    Click anywhere to set the point  ·  (Press Esc to Cancel)
+                </Label>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
